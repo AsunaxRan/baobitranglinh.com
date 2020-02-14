@@ -16,11 +16,14 @@
     <header id="header">
       <div class="top-header py-4">
         <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <button class="nav__collapse d-md-none js-open-sidebar">
+              <i class="fas fa-bars"></i>
+            </button>
             <a class="brand" href="index.html">
               <img class="img-fluid" src="imgs/logo.png" alt="tralinco" />
             </a>
-            <div class="hotline">Hotline:
+            <div class="hotline ml-auto">Hotline:
               <span>0975 197 595</span>
             </div>
           </div>
@@ -28,8 +31,7 @@
       </div>
       <nav class="nav">
         <div class="nav__header d-md-none">
-          <span>TRALINCO</span>
-          <button class="js-close-sidebar">
+          <button class="nav__collapse js-close-sidebar">
             <i class="fas fa-bars"></i>
           </button>
         </div>
@@ -260,165 +262,171 @@
               </div>
               <section class="group">
                 <div class="group__title h5 text-uppercase">BAO JUMBO, CONTAINER, BIGBAG</div>
-                <div class="group__content row">
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-nong-san.html" title="Bao Jumbo Đựng Nông Sản">
-                          <img class="product__image" src="imgs/products/product-1.png" alt="Bao Jumbo Đựng Nông Sản" />
-                        </a>
+                <div class="group__content">
+                  <div class="row">
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-nong-san.html" title="Bao Jumbo Đựng Nông Sản">
+                            <img class="product__image" src="imgs/products/product-1.png" alt="Bao Jumbo Đựng Nông Sản" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Nông Sản">Bao Jumbo Đựng Nông Sản</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Nông Sản">Bao Jumbo Đựng Nông Sản</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-khoang-san.html" title="Bao Jumbo Đựng Khoáng Sản">
-                          <img class="product__image" src="imgs/products/product-8.jpg" alt="Bao Jumbo Đựng Khoáng Sản" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-khoang-san.html" title="Bao Jumbo Đựng Khoáng Sản">
+                            <img class="product__image" src="imgs/products/product-8.jpg" alt="Bao Jumbo Đựng Khoáng Sản" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Khoáng Sản">Bao Jumbo Đựng Khoáng Sản</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Khoáng Sản">Bao Jumbo Đựng Khoáng Sản</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-hoa-chat.html" title="Bao Jumbo Đựng Hóa Chất">
-                          <img class="product__image" src="imgs/products/product-9.jpg" alt="Bao Jumbo Đựng Hóa Chất" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-hoa-chat.html" title="Bao Jumbo Đựng Hóa Chất">
+                            <img class="product__image" src="imgs/products/product-9.jpg" alt="Bao Jumbo Đựng Hóa Chất" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Hóa Chất">Bao Jumbo Đựng Hóa Chất</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Hóa Chất">Bao Jumbo Đựng Hóa Chất</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-than.html" title="Bao Jumbo Đựng Than">
-                          <img class="product__image" src="imgs/products/sample.png" alt="Bao Jumbo Đựng Than" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-than.html" title="Bao Jumbo Đựng Than">
+                            <img class="product__image" src="imgs/products/sample.png" alt="Bao Jumbo Đựng Than" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Than">Bao Jumbo Đựng Than</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Than">Bao Jumbo Đựng Than</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-thuc-an-gia-suc-gia-cam.html" title="Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm">
-                          <img class="product__image" src="imgs/products/sample.png" alt="Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-thuc-an-gia-suc-gia-cam.html" title="Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm">
+                            <img class="product__image" src="imgs/products/sample.png" alt="Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm">Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm">Bao Jumbo Đựng Thức Ăn Gia Súc, Gia Cầm</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-chau-vien-nen-mun-cua-vo-hat.html" title="Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt">
-                          <img class="product__image" src="imgs/products/product-2.jpg" alt="Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-chau-vien-nen-mun-cua-vo-hat.html" title="Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt">
+                            <img class="product__image" src="imgs/products/product-2.jpg" alt="Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt">Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt">Bao Jumbo Đựng Chấu, Viên Nén, Mùn Cưa, Vỏ, Hạt</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-hat-nhua.html" title="Bao Jumbo Đựng Hạt Nhựa">
-                          <img class="product__image" src="imgs/products/product-3.jpg" alt="Bao Jumbo Đựng Hạt Nhựa" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-hat-nhua.html" title="Bao Jumbo Đựng Hạt Nhựa">
+                            <img class="product__image" src="imgs/products/product-3.jpg" alt="Bao Jumbo Đựng Hạt Nhựa" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Hạt Nhựa">Bao Jumbo Đựng Hạt Nhựa</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Hạt Nhựa">Bao Jumbo Đựng Hạt Nhựa</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-dat-hiem.html" title="Bao Jumbo Đựng Đất Hiếm">
-                          <img class="product__image" src="imgs/products/product-4.png" alt="Bao Jumbo Đựng Đất Hiếm" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-dat-hiem.html" title="Bao Jumbo Đựng Đất Hiếm">
+                            <img class="product__image" src="imgs/products/product-4.png" alt="Bao Jumbo Đựng Đất Hiếm" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Đất Hiếm">Bao Jumbo Đựng Đất Hiếm</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Đất Hiếm">Bao Jumbo Đựng Đất Hiếm</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="bao-jumbo-dung-phu-gia-xay-dung.html" title="Bao Jumbo Đựng Phụ Gia Xây Dựng">
-                          <img class="product__image" src="imgs/products/product-5.png" alt="Bao Jumbo Đựng Phụ Gia Xây Dựng" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="bao-jumbo-dung-phu-gia-xay-dung.html" title="Bao Jumbo Đựng Phụ Gia Xây Dựng">
+                            <img class="product__image" src="imgs/products/product-5.png" alt="Bao Jumbo Đựng Phụ Gia Xây Dựng" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Bao Jumbo Đựng Phụ Gia Xây Dựng">Bao Jumbo Đựng Phụ Gia Xây Dựng</a>
                       </div>
-                      <a class="product__name" href="Bao Jumbo Đựng Phụ Gia Xây Dựng">Bao Jumbo Đựng Phụ Gia Xây Dựng</a>
                     </div>
                   </div>
                 </div>
               </section>
               <section class="group">
                 <div class="group__title h5 text-uppercase">DÂY THỪNG CHO NGÀNH BAO CẨU JUMBO BIGBAG</div>
-                <div class="group__content row">
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="day-thung-cho-nganh-bao-cau-jumbo-bigbag-1.html" title="Dây thừng cho ngành bao cẩu Jumbo Bigbag 1">
-                          <img class="product__image" src="imgs/products/type2-product-1.jpg" alt="Dây thừng cho ngành bao cẩu Jumbo Bigbag 1" />
-                        </a>
+                <div class="group__content">
+                  <div class="row">
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="day-thung-cho-nganh-bao-cau-jumbo-bigbag-1.html" title="Dây thừng cho ngành bao cẩu Jumbo Bigbag 1">
+                            <img class="product__image" src="imgs/products/type2-product-1.jpg" alt="Dây thừng cho ngành bao cẩu Jumbo Bigbag 1" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Dây thừng cho ngành bao cẩu Jumbo Bigbag 1">Dây thừng cho ngành bao cẩu Jumbo Bigbag 1</a>
                       </div>
-                      <a class="product__name" href="Dây thừng cho ngành bao cẩu Jumbo Bigbag 1">Dây thừng cho ngành bao cẩu Jumbo Bigbag 1</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="day-thung-cho-nganh-bao-cau-jumbo-bigbag-2.html" title="Dây thừng cho ngành bao cẩu Jumbo Bigbag 2">
-                          <img class="product__image" src="imgs/products/type2-product-2.jpg" alt="Dây thừng cho ngành bao cẩu Jumbo Bigbag 2" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="day-thung-cho-nganh-bao-cau-jumbo-bigbag-2.html" title="Dây thừng cho ngành bao cẩu Jumbo Bigbag 2">
+                            <img class="product__image" src="imgs/products/type2-product-2.jpg" alt="Dây thừng cho ngành bao cẩu Jumbo Bigbag 2" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Dây thừng cho ngành bao cẩu Jumbo Bigbag 2">Dây thừng cho ngành bao cẩu Jumbo Bigbag 2</a>
                       </div>
-                      <a class="product__name" href="Dây thừng cho ngành bao cẩu Jumbo Bigbag 2">Dây thừng cho ngành bao cẩu Jumbo Bigbag 2</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="day-thung-cho-nganh-bao-cau-jumbo-bigbag-3.html" title="Dây thừng cho ngành bao cẩu Jumbo Bigbag 3">
-                          <img class="product__image" src="imgs/products/type2-product-3.jpg" alt="Dây thừng cho ngành bao cẩu Jumbo Bigbag 3" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="day-thung-cho-nganh-bao-cau-jumbo-bigbag-3.html" title="Dây thừng cho ngành bao cẩu Jumbo Bigbag 3">
+                            <img class="product__image" src="imgs/products/type2-product-3.jpg" alt="Dây thừng cho ngành bao cẩu Jumbo Bigbag 3" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Dây thừng cho ngành bao cẩu Jumbo Bigbag 3">Dây thừng cho ngành bao cẩu Jumbo Bigbag 3</a>
                       </div>
-                      <a class="product__name" href="Dây thừng cho ngành bao cẩu Jumbo Bigbag 3">Dây thừng cho ngành bao cẩu Jumbo Bigbag 3</a>
                     </div>
                   </div>
                 </div>
               </section>
               <section class="group">
                 <div class="group__title h5 text-uppercase">VẢI JUMBO</div>
-                <div class="group__content row">
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="vai-jumbo-1.html" title="Vải Jumbo 1">
-                          <img class="product__image" src="imgs/products/sample.png" alt="Vải Jumbo 1" />
-                        </a>
+                <div class="group__content">
+                  <div class="row">
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="vai-jumbo-1.html" title="Vải Jumbo 1">
+                            <img class="product__image" src="imgs/products/sample.png" alt="Vải Jumbo 1" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Vải Jumbo 1">Vải Jumbo 1</a>
                       </div>
-                      <a class="product__name" href="Vải Jumbo 1">Vải Jumbo 1</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="vai-jumbo-2.html" title="Vải Jumbo 2">
-                          <img class="product__image" src="imgs/products/sample.png" alt="Vải Jumbo 2" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="vai-jumbo-2.html" title="Vải Jumbo 2">
+                            <img class="product__image" src="imgs/products/sample.png" alt="Vải Jumbo 2" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Vải Jumbo 2">Vải Jumbo 2</a>
                       </div>
-                      <a class="product__name" href="Vải Jumbo 2">Vải Jumbo 2</a>
                     </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="product">
-                      <div class="product__placeholder">
-                        <a class="product__link" href="vai-jumbo-3.html" title="Vải Jumbo 3">
-                          <img class="product__image" src="imgs/products/sample.png" alt="Vải Jumbo 3" />
-                        </a>
+                    <div class="col-6 col-md-4">
+                      <div class="product">
+                        <div class="product__placeholder">
+                          <a class="product__link" href="vai-jumbo-3.html" title="Vải Jumbo 3">
+                            <img class="product__image" src="imgs/products/sample.png" alt="Vải Jumbo 3" />
+                          </a>
+                        </div>
+                        <a class="product__name" href="Vải Jumbo 3">Vải Jumbo 3</a>
                       </div>
-                      <a class="product__name" href="Vải Jumbo 3">Vải Jumbo 3</a>
                     </div>
                   </div>
                 </div>
